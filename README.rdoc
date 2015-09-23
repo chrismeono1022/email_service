@@ -1,28 +1,7 @@
-== README
+=== Email Service
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+The challenge: Create a service that accepts the necessary information and sends emails. It should provide an abstraction between two different email service providers. If one of the services goes down, your service can quickly failover to a different provider without affecting your customers.
 
-Things you may want to cover:
+My email service integrates SendGrid and SendWithUs.
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
-
-
-Please feel free to use a different markup language if you do not plan to run
-<tt>rake doc:app</tt>.
+API documentation to follow.
